@@ -1,0 +1,16 @@
+header:
+  version: 17
+  includes:
+    - repo: test-repo
+      file: kas/exports.yml
+
+  repos:
+    recepten:
+      url: "git@github.com:jeroenknoops/recepten.git"
+      branch: main
+      commit: 640f09085f86130cf9ed7e06a8a2d4f90411074f
+
+    jeroenknoops:
+      url: "git@github.com:jeroenknoops/jeroenknoops.git"
+      branch: main
+      commit: 79d0b7db1924808a913ac1e75abf374fca724a1e
