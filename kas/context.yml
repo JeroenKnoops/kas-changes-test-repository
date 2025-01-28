@@ -1,7 +1,7 @@
 header:
   version: 17
   includes:
-    - repo: test-repo
+    - repo: recepten
       file: kas/exports.yml
 
   repos:
